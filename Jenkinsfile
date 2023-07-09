@@ -1,10 +1,11 @@
 pipeline {
-   agent any
+   agent lab-main
    
    stages {
       stage('Build') {
          steps {
             echo 'Building..'
+            
          }
       }
       stage('Test') {
