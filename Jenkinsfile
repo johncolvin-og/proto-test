@@ -1,5 +1,5 @@
 pipeline {
-   agent lab-main
+   agent 'lab-main'
    
    stages {
       stage('Build') {
